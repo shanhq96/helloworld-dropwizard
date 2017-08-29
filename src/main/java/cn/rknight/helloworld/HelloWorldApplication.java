@@ -3,8 +3,10 @@ package cn.rknight.helloworld;
 import cn.rknight.helloworld.health.TemplateHealthCheck;
 import cn.rknight.helloworld.resources.HelloWorldResource;
 import io.dropwizard.Application;
+import io.dropwizard.jdbi.DBIFactory;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
+import org.skife.jdbi.v2.DBI;
 
 /**
  * Author: shanhongqiang
